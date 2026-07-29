@@ -1,7 +1,7 @@
 # Phantom Lease
 
 Website for the band Phantom Lease (Jacob Trombetta, Brenden Vencel, Mary Riley) —
-[phantomlease.com](https://www.phantomlease.com/).
+[phantomlease.com](https://phantomlease.com/).
 
 A single static page — no build step, no dependencies.
 
@@ -50,6 +50,5 @@ After editing, just refresh the browser — there's no build/compile step.
 
 ## Deploying
 
-Upload `index.html`, `style.css`, `robots.txt`, `sitemap.xml`, and the `images/`
-folder to the web host, preserving the folder structure (`images/` must stay
-alongside `index.html`).
+Pushes to `main` deploy automatically to GitHub Pages via
+`.github/workflows/static.yml`. The custom domain is set in `CNAME`.
